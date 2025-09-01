@@ -22,7 +22,6 @@ let NOMEDOALUNO = "Julia";
 // const (constante) - Declarando variavel do tipo constante
 const idade = 20;
 
-
 // redeclaração de variavel - não precisa do escopo de declaração (var, let, const)
 // nomeDoAluno = "Paulo"
 // idade = 41
