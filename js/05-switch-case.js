@@ -46,7 +46,10 @@ switch (dia) {
 }
 
 // exemplo de switch com operações matemáticas
-let operacao = "+";
+// Para ver o switch em ação, experimente alterar o tipo de operação para ver o resultado no console do navegador
+
+// Lembre-se de conectar esse auqivo a index.html
+let operacao = "-";
 let a = 10;
 let b = 5;
 
@@ -70,3 +73,14 @@ switch (operacao) {
   default:
     console.log("Operação inválida");
 }
+
+
+
+// switch (key) {
+//     case value:
+        
+//         break;
+
+//     default:
+//         break;
+// }

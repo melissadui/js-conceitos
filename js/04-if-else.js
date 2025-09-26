@@ -29,8 +29,12 @@ let idade = 36;
 // // Condicional composta
 if (idade >= 18) {
   console.log("Você é maior de idade.");
-} else {
+} else if (idade < 18) {
   console.log("Você é menor de idade");
+} else if (idade > 60) {
+    console.log("Você é um idoso.");
+} else {
+    console.log("Você nem saiu do jardim de infância, vai comer terra!")
 }
 
 // condicional encadeada
